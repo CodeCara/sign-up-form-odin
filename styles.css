@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url('./assets/fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('./assets/fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+body
+{width: 80vw;
+margin: auto;
+background-color: black;}
+
+
+.img-and-text-container
+{background-color: blue;
+display: flex;}
+
+.img-container
+{
+    background-image: url("./assets/images/planet.jpg");  
+    
+ 
+/* width: 40%; */
+height: 100vh;
+width: 40%;
+background-size:cover;
+}
+
+.img-overlay-text 
+{background-color: rgba(0, 0, 255, 0.3);
+    color: white;
+    margin-top: 40% ;
+    font-family: "norsebold";
+    font-size: 100px;
+    text-align: center;
+   
+   
+} 
+
+.odin-logo
+{height: 100px;}
+
+
+
+.logo-plus-text-container
+{display: flex;
+background-color: green;
+height: 100px;}
+
+
+.text-container
+{background-color: yellow;
+width: 60%;}
+
+.intro-text-container
+{background-color: pink;
+height: 35vh;}
+
+.form-container
+{background-color: green;
+height: 30vh;}
+
+.btn-container
+{background-color: purple;
+    height: 35vh;}
