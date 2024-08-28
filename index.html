@@ -10,19 +10,21 @@
     <div class="entire-page-container">
    <div class="img-container">
 <div class="logo-plus-text-container">
-<img src="assets/images/odin-logo.png" class="odin-logo"></img>
-    <div class="img-overlay-text">Odin</div>
+    <!-- !Query syntax of line below -->
+<img src="assets/images/odin-logo.png" class="odin-logo">
+<span class="odin-text">Planet Odin</span>
+
 </div>
 <p class="photo-credit">Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Pawel Czerwinski</a> on <a href="https://unsplash.com/photos/a-picture-of-a-blue-planet-with-a-black-background-R8tifCZCRM4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 </p>
    </div>
    <div class="text-container">
     <div class="intro-text-container">
-        <p>Carlsberg don't do web dev courses...</p>
+        <p class="intro-header">Carlsberg don't do web dev courses...</p>
 
 
-          <p>  Thought that vowels were unimportant?  Have you tried wrapping your HTML in a 'dEv' lately?
-            If so, sign up to the Odin Project and never mix up your <em>divs</em> with your <em>devs</em> again!
+          <p>  Thought that vowels were unimportant?  Have you tried wrapping your HTML elements in a 'dEv' lately?</p>
+            <p>If so, sign up to the Odin Project and never mix up your <em>divs</em> with your <em>devs</em> again!
         </p>
 
         </div>
@@ -64,13 +66,14 @@
 <div class="input-pair">
     <div class="input-plus-label">
     <label for="password">PASSWORD</label>
-    <input type="password" id = "password" name ="password" autocomplete="on" class="password">
-    </div>
+    <input type="password" id = "password" name ="password" autocomplete="on" class="password" pattern="^[a-zA-Z0-9]{8,16}$">
+<span class="password-prompt"></span>    
+</div>
     
     
     <div class="input-plus-label">
     <label for="confirm-password">CONFIRM PASSWORD</label>
-    <input type="password" id="confirm-password" name="confirm-password" autocomplete="on">
+    <input type="password" id="confirm-password" name="confirm-password" autocomplete="on" pattern="^[a-zA-Z0-9]{8,16}$">
     </div>
     </div>
 </form>
