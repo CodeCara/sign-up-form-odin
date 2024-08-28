@@ -54,7 +54,7 @@ background-size:cover;
 .logo-plus-text-container
 {
 display: flex;
-background-color:var(--logo-background-color)
+background-color:var(--logo-background-color);
 height: 8rem;
 margin-top: 14rem;
 justify-content: center;
